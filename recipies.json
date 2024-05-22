@@ -1,0 +1,425 @@
+{
+  "copper ore": null,
+  "iron ore": null,
+  "stone": null,
+  "coal": null,
+  "crude oil": null,
+  "petroleum gas": null,
+  "light oil": null,
+  "heavy oil": null,
+  "water": null,
+  "uranium ore": null,
+  "solid fuel": null,
+  "utility science pack": {
+    "outputs": {
+      "utility science pack": "3"
+    },
+    "inputs": {
+      "flying robot frame": "1",
+      "low density structure": "3",
+      "processing unit": "2"
+    },
+    "crafting time": "21"
+  },
+  "flying robot frame": {
+    "outputs": {
+      "flying robot frame": "1 "
+    },
+    "inputs": {
+      "battery": "2",
+      "electric engine unit": "1",
+      "electronic circuit": "3",
+      "steel plate": "1"
+    },
+    "crafting time": "20"
+  },
+  "battery": {
+    "outputs": {
+      "battery": "1 "
+    },
+    "inputs": {
+      "copper plate": "1",
+      "iron plate": "1",
+      "sulfuric acid": "20"
+    },
+    "crafting time": "4"
+  },
+  "copper plate": {
+    "outputs": {
+      "copper plate": "1 "
+    },
+    "inputs": {
+      "copper ore": "1"
+    },
+    "crafting time": "3.2"
+  },
+  "iron plate": {
+    "outputs": {
+      "iron plate": "1 "
+    },
+    "inputs": {
+      "iron ore": "1"
+    },
+    "crafting time": "3.2"
+  },
+  "sulfuric acid": {
+    "outputs": {
+      "sulfuric acid": "50"
+    },
+    "inputs": {
+      "iron plate": "1",
+      "sulfur": "5",
+      "water": "100"
+    },
+    "crafting time": "1"
+  },
+  "sulfur": {
+    "outputs": {
+      "sulfur": "2"
+    },
+    "inputs": {
+      "petroleum gas": "30",
+      "water": "30"
+    },
+    "crafting time": "1"
+  },
+  "electric engine unit": {
+    "outputs": {
+      "electric engine unit": "1 "
+    },
+    "inputs": {
+      "electronic circuit": "2",
+      "engine unit": "1",
+      "lubricant": "15"
+    },
+    "crafting time": "10"
+  },
+  "electronic circuit": {
+    "outputs": {
+      "electronic circuit": "1 "
+    },
+    "inputs": {
+      "copper cable": "3",
+      "iron plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "copper cable": {
+    "outputs": {
+      "copper cable": "2"
+    },
+    "inputs": {
+      "copper plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "engine unit": {
+    "outputs": {
+      "engine unit": "1 "
+    },
+    "inputs": {
+      "iron gear wheel": "1",
+      "pipe": "2",
+      "steel plate": "1"
+    },
+    "crafting time": "10"
+  },
+  "iron gear wheel": {
+    "outputs": {
+      "iron gear wheel": "1 "
+    },
+    "inputs": {
+      "iron plate": "2"
+    },
+    "crafting time": "0.5"
+  },
+  "pipe": {
+    "outputs": {
+      "pipe": "1 "
+    },
+    "inputs": {
+      "iron plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "steel plate": {
+    "outputs": {
+      "steel plate": "1 "
+    },
+    "inputs": {
+      "iron plate": "5"
+    },
+    "crafting time": "16"
+  },
+  "lubricant": {
+    "outputs": {
+      "lubricant": "10"
+    },
+    "inputs": {
+      "heavy oil": "10"
+    },
+    "crafting time": "1"
+  },
+  "low density structure": {
+    "outputs": {
+      "low density structure": "1 "
+    },
+    "inputs": {
+      "copper plate": "20",
+      "plastic bar": "5",
+      "steel plate": "2"
+    },
+    "crafting time": "20"
+  },
+  "plastic bar": {
+    "outputs": {
+      "plastic bar": "2"
+    },
+    "inputs": {
+      "coal": "1",
+      "petroleum gas": "20"
+    },
+    "crafting time": "1"
+  },
+  "processing unit": {
+    "outputs": {
+      "processing unit": "1 "
+    },
+    "inputs": {
+      "advanced circuit": "2",
+      "electronic circuit": "20",
+      "sulfuric acid": "5"
+    },
+    "crafting time": "10"
+  },
+  "advanced circuit": {
+    "outputs": {
+      "advanced circuit": "1 "
+    },
+    "inputs": {
+      "copper cable": "4",
+      "electronic circuit": "2",
+      "plastic bar": "2"
+    },
+    "crafting time": "6"
+  },
+  "satellite": {
+    "outputs": {
+      "satellite": "1 "
+    },
+    "inputs": {
+      "accumulator": "100",
+      "low density structure": "100",
+      "processing unit": "100",
+      "radar": "5",
+      "rocket fuel": "50",
+      "solar panel": "100"
+    },
+    "crafting time": "5"
+  },
+  "accumulator": {
+    "outputs": {
+      "accumulator": "1 "
+    },
+    "inputs": {
+      "battery": "5",
+      "iron plate": "2"
+    },
+    "crafting time": "10"
+  },
+  "radar": {
+    "outputs": {
+      "radar": "1 "
+    },
+    "inputs": {
+      "electronic circuit": "5",
+      "iron gear wheel": "5",
+      "iron plate": "10"
+    },
+    "crafting time": "0.5"
+  },
+  "rocket fuel": {
+    "outputs": {
+      "rocket fuel": "1 "
+    },
+    "inputs": {
+      "light oil": "10",
+      "solid fuel": "10"
+    },
+    "crafting time": "30"
+  },
+  "solar panel": {
+    "outputs": {
+      "solar panel": "1 "
+    },
+    "inputs": {
+      "copper plate": "5",
+      "electronic circuit": "15",
+      "steel plate": "5"
+    },
+    "crafting time": "10"
+  },
+  "production science pack": {
+    "outputs": {
+      "production science pack": "3"
+    },
+    "inputs": {
+      "electric furnace": "1",
+      "productivity module": "1",
+      "rail": "30"
+    },
+    "crafting time": "21"
+  },
+  "electric furnace": {
+    "outputs": {
+      "electric furnace": "1 "
+    },
+    "inputs": {
+      "advanced circuit": "5",
+      "steel plate": "10",
+      "stone brick": "10"
+    },
+    "crafting time": "5"
+  },
+  "stone brick": {
+    "outputs": {
+      "stone brick": "1 "
+    },
+    "inputs": {
+      "stone": "2"
+    },
+    "crafting time": "3.2"
+  },
+  "productivity module": {
+    "outputs": {
+      "productivity module": "1 "
+    },
+    "inputs": {
+      "advanced circuit": "5",
+      "electronic circuit": "5"
+    },
+    "crafting time": "15"
+  },
+  "rail": {
+    "outputs": {
+      "rail": "2"
+    },
+    "inputs": {
+      "iron stick": "1",
+      "steel plate": "1",
+      "stone": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "iron stick": {
+    "outputs": {
+      "iron stick": "2"
+    },
+    "inputs": {
+      "iron plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "chemical science pack": {
+    "outputs": {
+      "chemical science pack": "2"
+    },
+    "inputs": {
+      "advanced circuit": "3",
+      "engine unit": "2",
+      "sulfur": "1"
+    },
+    "crafting time": "24"
+  },
+  "military science pack": {
+    "outputs": {
+      "military science pack": "2"
+    },
+    "inputs": {
+      "grenade": "1",
+      "piercing rounds magazine": "1",
+      "wall": "2"
+    },
+    "crafting time": "10"
+  },
+  "grenade": {
+    "outputs": {
+      "grenade": "1 "
+    },
+    "inputs": {
+      "coal": "10",
+      "iron plate": "5"
+    },
+    "crafting time": "8"
+  },
+  "piercing rounds magazine": {
+    "outputs": {
+      "piercing rounds magazine": "1 "
+    },
+    "inputs": {
+      "copper plate": "5",
+      "firearm magazine": "1",
+      "steel plate": "1"
+    },
+    "crafting time": "3"
+  },
+  "firearm magazine": {
+    "outputs": {
+      "firearm magazine": "1 "
+    },
+    "inputs": {
+      "iron plate": "4"
+    },
+    "crafting time": "1"
+  },
+  "wall": {
+    "outputs": {
+      "wall": "1 "
+    },
+    "inputs": {
+      "stone brick": "5"
+    },
+    "crafting time": "0.5"
+  },
+  "logistic science pack": {
+    "outputs": {
+      "logistic science pack": "1 "
+    },
+    "inputs": {
+      "inserter": "1",
+      "transport belt": "1"
+    },
+    "crafting time": "6"
+  },
+  "inserter": {
+    "outputs": {
+      "inserter": "1 "
+    },
+    "inputs": {
+      "electronic circuit": "1",
+      "iron gear wheel": "1",
+      "iron plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "transport belt": {
+    "outputs": {
+      "transport belt": "2"
+    },
+    "inputs": {
+      "iron gear wheel": "1",
+      "iron plate": "1"
+    },
+    "crafting time": "0.5"
+  },
+  "automation science pack": {
+    "outputs": {
+      "automation science pack": "1 "
+    },
+    "inputs": {
+      "copper plate": "1",
+      "iron gear wheel": "1"
+    },
+    "crafting time": "5"
+  }
+}
